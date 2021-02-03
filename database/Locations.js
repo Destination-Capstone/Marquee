@@ -13,7 +13,8 @@ const locationSchema = new mongoose.Schema({
   bathrooms: Number,
   price: Number,
   description: String,
-  amenities: Array
+  amenities: Array,
+  policies: Array
 });
 
 const Locations = mongoose.model('Locations', locationSchema);
