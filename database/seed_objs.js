@@ -159,3 +159,21 @@ exports.pictureBag = [
  'exterior8'
 ];
 
+exports.policiesBag = [
+  {
+    title: "Entire home",
+    description: "You'll have the house to yourself",
+    icon: "house"
+  },
+  {
+    title: "Enhanced Clean",
+    description: "This host committed to Airbnb's enhanced cleaning process",
+    icon: "clean"
+  },
+  {
+    title: "House rules",
+    description: "Parties only",
+    icon: "rules"
+  }
+];
+

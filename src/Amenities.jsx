@@ -28,6 +28,7 @@ var Amenities = (props) => {
   } else {
     return (
       <div>
+        <h2>Amenities</h2>
         {props.listing.amenities.map( (amen) => {
           return amenitiesLookup[amen];
         })}

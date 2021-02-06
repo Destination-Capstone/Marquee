@@ -1,6 +1,27 @@
-.marquee-app {
-  margin-right: 150px;
-  margin-left: 150px;
+@font-face {
+  font-family: 'Airbnb Cereal App Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Book'), url('./abb_woff/AirbnbCerealBook.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Airbnb Cereal App Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Light'), url('./abb_woff/AirbnbCerealLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Airbnb Cereal App Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Medium'), url('./abb_woff/AirbnbCerealMedium.woff') format('woff');
+}
+
+body {
+  font-family: 'Airbnb Cereal App Light';
+  margin: 10px 15% 0 15%;
 }
 
 .marquee-description-modal {
@@ -15,8 +36,22 @@
   background: seashell;
 }
 
-.marquee-sleeping-span {
+.marquee-sleeping-card {
   width: 150px;
   height: 125px;
+  border-radius: 10%;
   border: 1px solid lightgray;
+  margin: 5px;
+}
+
+.marquee-sleeping-flexbox{
+  display: flex;
+}
+
+.marquee-read-description-button{
+  font-weight: bold;
+}
+
+.marquee-submodules-div{
+  width: 600px;
 }

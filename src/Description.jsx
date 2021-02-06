@@ -30,7 +30,7 @@ var Description = (props) => {
       <div>
         <p>{props.listing.description.substr(0, 200)}
           ...
-          <span onClick={handleOpen}>read more</span>
+          <span onClick={handleOpen} className="marquee-read-description-button"><b><u>read more</u></b></span>
         </p>
         <Modal
           open={open}
