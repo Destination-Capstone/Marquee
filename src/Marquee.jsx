@@ -56,7 +56,7 @@ const Marquee = () => {
     <div className="marquee-app">
       <Title listing={displayRecord} />
       <PhotoGrid listing={displayRecord} />
-      <div>
+      <div className="marquee-submodules-div">
         <Divider />
         <Policies listing={displayRecord} />
         <Divider />
